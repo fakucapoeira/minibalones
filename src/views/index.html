@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <%- include('partials/head.html') %>
+        <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <%- include("partials/navigation.html") %>
+
+        <div class="container">
+            <header class="row">
+                <div class="col-lg-12 text-center">
+                    <img src="/img/minibalones.png" class="animate__animated animate__bounceIn" alt="minibalones">
+                </div>
+            </header>
+
+
+        </div>
+        <div class="container-fluid" id="about">
+            <div class="row bk-dark text-white p-5 text-center">
+                <div class="col sm-6">
+                    <i class="fa-solid fa-anchor-circle-check fa-10x"></i>
+                </div>
+                <div class="col -sm-6">
+                    <h3>Las miniaturas artesanales mas increibles del mundo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum possimus numquam nam enim eum.
+                        Sapiente, quas. Inventore accusantium, dolore cumque vel voluptate ea temporibus, voluptatum
+                        veniam eligendi voluptatibus veritatis esse!</p>
+                </div>
+
+
+
+            </div>
+
+            <%- include("partials/footer.html") %>
+
+        </div>
+
+        <!-- JAVASCRIPT CDNS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
