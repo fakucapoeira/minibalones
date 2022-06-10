@@ -9,7 +9,7 @@ const path = require('path');      // para ver si estas en linux o wind y te pao
 
 
 // Settings
-app.set('port',3000);
+//app.set('port',3000);
 //app.set('port',3000);
 app.set('view engine','ejs');                // motor de plantillas... en vez de html uso los ejs que se convierten en html
 app.engine('html',require('ejs').renderFile);
