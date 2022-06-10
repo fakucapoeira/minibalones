@@ -29,7 +29,8 @@ app.use(require('./routes/index'));
 app.use(express.static(path.join(__dirname,'public')))  // cualquer archivo dentro de public va a poder ser accedido desde el navegador. 
 
 //listening
-const port = process.env.PORT || 5000     //  env.port es para cuando lo subimos a Heroku, que nos asigna un puerto.. y el 3000 es para localhost|
+//const port = process.env.PORT || 5000     //  env.port es para cuando lo subimos a Heroku, que nos asigna un puerto.. y el 3000 es para localhost|
+const port = process.env.PORT     //  env.port es para cuando lo subimos a Heroku, que nos asigna un puerto.. y el 3000 es para localhost|
 //console.log(port);
 //app.listen(app.get(port));
 app.listen(app.get(port),()=>{
