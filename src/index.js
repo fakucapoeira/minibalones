@@ -35,4 +35,3 @@ const port = process.env.PORT || 5000     //  env.port es para cuando lo subimos
 app.listen(app.get(port),()=>{
     console.log('server on port',port);
 });
-git 
